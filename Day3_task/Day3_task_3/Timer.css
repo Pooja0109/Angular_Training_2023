@@ -1,0 +1,31 @@
+body{
+    background-image: url('img7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  /* background-repeat: no-repeat;
+  background-position: 50% 50%; */
+}
+#timer {
+    width: 500px;
+    height: 150px;
+    padding:2%;
+    align-items: center; 
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    /* border:2px solid rgb(136,136,136,0.5); */
+    background-color:rgb(136,136,136,0.5);
+}
+#title
+{
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+    padding:1%;
+}
+.title
+{
+    color:white;
+    padding:32px;
+}
