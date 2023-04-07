@@ -96,7 +96,8 @@ th,td{
 }
 .close:hover
 {
-    color:red;
+    color:white;
+    background-color: rgb(209, 13, 13);
 }
 .submit
 {
