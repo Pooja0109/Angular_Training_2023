@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.part1
+{
+    color:#fff;
+    background-color:#263a65;
+    height:80px;
+    font-size:30px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.heading
+{
+    padding:2%;
+}
+ul li
+{
+    list-style-type: none;
+    display:inline;
+    padding:15px;
+    font-size:small;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:normal;
+}
+li:hover{
+    background-color: #16223c;
+    border-radius: 10px;
+    cursor: pointer;
+}

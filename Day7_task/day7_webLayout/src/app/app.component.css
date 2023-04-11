@@ -1,0 +1,10 @@
+
+.part3
+{
+    width:100%;
+    background-color: #41de85;
+    color:white;
+    height:220px;
+    display:flex;
+    float: left;
+}
