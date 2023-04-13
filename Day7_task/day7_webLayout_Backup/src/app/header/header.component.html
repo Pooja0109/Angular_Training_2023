@@ -1,0 +1,17 @@
+<div class="part1"  [ngStyle]="currentheme.part1">
+    <div class="heading">
+        <fa-icon [icon]="iconHeart" style="color:#32d277"></fa-icon>
+        Flat Theme
+    </div>
+    <div class="heading">
+        <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>Protofolio</li>
+            <li><a href=""></a>Pages</li>
+            <li (click)="changeTheme('Theme1')">Light mode</li>
+            <li (click)="changeTheme('Theme2')">Night mode</li>
+        </ul>
+    </div>
+</div>
