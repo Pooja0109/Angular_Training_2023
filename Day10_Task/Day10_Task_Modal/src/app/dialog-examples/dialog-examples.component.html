@@ -1,0 +1,33 @@
+<h1 mat-dialog-title class="heading">Registrartion Form</h1>
+<!-- <mat-dialog-content>Log In Using</mat-dialog-content> -->
+
+<mat-form-field>
+    <mat-label>First Name</mat-label>
+    <input matInput>
+</mat-form-field>
+
+<mat-form-field>
+    <mat-label>Last Name</mat-label>
+    <input matInput>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Education</mat-label>
+    <mat-select>
+        <mat-option *ngFor="let x of edus" value="{{x}}">
+            {{x}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+<mat-dialog-actions class="heading">
+    <button mat-raised-button mat-button mat-dialog-close>Submit</button>
+</mat-dialog-actions>

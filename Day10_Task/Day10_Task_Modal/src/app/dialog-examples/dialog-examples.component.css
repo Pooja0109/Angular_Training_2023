@@ -1,0 +1,20 @@
+:host
+{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    width:500px;
+    
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    color:rgb(34, 34, 193);
+    font-weight: bolder;
+}
+button
+{
+    background-color:rgb(34, 34, 193) ! important;
+    color:whitesmoke  ! important;
+}
