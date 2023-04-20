@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { DialogExamplesComponent } from './dialog-examples/dialog-examples.component';
 
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,12 +10,10 @@ import { DialogExamplesComponent } from './dialog-examples/dialog-examples.compo
 export class AppComponent {
   title = 'Day10_Task_Modal';
 
-  constructor(public dialog:MatDialog)
+  constructor(public dialog1:MatDialog)
   {}
-    openDialog()
+    openDialog1()
     {
-      this.dialog.open(DialogExamplesComponent);
+      this.dialog1.open(DialogExamplesComponent);
     }
-    
-   
 }

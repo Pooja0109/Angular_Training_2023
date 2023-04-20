@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { datafields } from './appinfo';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
