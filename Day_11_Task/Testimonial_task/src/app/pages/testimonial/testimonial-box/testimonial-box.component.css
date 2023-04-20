@@ -1,0 +1,27 @@
+.test-box
+{
+    border: 2px solid #888;
+    margin:2%;
+    padding:3%;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightblue;
+    height:10%;
+}
+.name-holder
+{
+    font-weight: bolder;
+    font-size:medium;
+    color:navy;
+}
+.type-holder
+{
+    float:right;
+    color:brown;
+    font-weight:500;
+    margin-top: 1%;
+}
+.msg-holder
+{
+    font-family: cursive;
+    font-weight:bold;
+}
