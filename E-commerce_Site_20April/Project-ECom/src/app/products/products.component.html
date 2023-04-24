@@ -1,0 +1,25 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  </style>
+  <mat-toolbar class="menu-bar">
+      <span class="title">Shopper's Mart</span> 
+   
+      <mat-form-field appearance="fill">
+        <mat-label>Category</mat-label>
+        <mat-select [(ngModel)]="selected">
+          <mat-option *ngFor="let f of Prod_Types" [value]="f">
+            {{f}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-toolbar>
+    <div class="ranger">
+  <mat-label class="lab">Price Range :</mat-label>
+    <mat-slider discrete min="100" max="50000" step="2000">
+        <input [(value)]="minval" matSliderStartThumb>
+        <input [(value)]="maxval" matSliderEndThumb>
+      </mat-slider>
+    </div>
+<div class="productsList">
+    <app-products-child *ngFor="let p of productLST | pipeCategory:selected |pipeRange:minval:maxval" [prods]="p"></app-products-child>
+</div>

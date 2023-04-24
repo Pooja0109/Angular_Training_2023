@@ -1,0 +1,40 @@
+.productsList
+{
+    margin-left:2%;
+}
+.menu-bar{
+    background-color: rgb(68, 3, 117) !important;
+    color: whitesmoke ! important;
+    position: static;
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+mat-form-field
+{
+    margin-top: 2%;
+    margin-left:68%;
+}
+mat-slider
+{
+    margin-left:83%;
+    width:15%;
+    /* margin-top:1%; */
+}
+.title
+{
+    font-family: 'Lobster', cursive;
+}
+.lab
+{
+    float: right;
+    margin-right:150px;
+    font-weight: 500;
+}
+.ranger
+{
+    margin-top: 1%;
+    /* border: 2px solid rgb(68, 3, 117);    */
+}
+

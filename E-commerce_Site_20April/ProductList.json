@@ -1,0 +1,100 @@
+{
+    "productList": [
+        {
+            "id": 1001,
+            "name": "earphone",
+            "price": 1500,
+            "image": "earphone.jpg",
+            "type": "Electronics",
+            "description": "This is a earphone"
+        },
+        {
+            "id": 1003,
+            "name": "Lenova Laptop",
+            "price": 49020,
+            "image": "laptop.jpg",
+            "type": "Electronics",
+            "description": "This is a Laptop"
+        },
+        {
+            "id": 1002,
+            "name": "Maggi Noodles",
+            "price": 150,
+            "image": "maggi.jpg",
+            "type": "Grocery",
+            "description": "This is instant noodles"
+        },
+        {
+            "id": 1009,
+            "name": "Spicy Chakli",
+            "price": 200,
+            "image": "chakli.jpg",
+            "type": "Grocery",
+            "description": "This is rice chakli"
+        },
+        {
+            "id": 1005,
+            "name": "Tea Powder",
+            "price": 650,
+            "image": "tea.jpg",
+            "type": "Grocery",
+            "description": "This is tea powder"
+        },
+        {
+            "id": 1006,
+            "name": "Boost Drink mix",
+            "price": 200,
+            "image": "boost.jpg",
+            "type": "Grocery",
+            "description": "This is drink mix"
+        },
+        {
+            "id": 1007,
+            "name": "Samsung Galaxy",
+            "price": 29500,
+            "image": "mobile.jpg",
+            "type": "Electronics",
+            "description": "This is a phone"
+        },
+        {
+            "id": 1004,
+            "name": "Smart Watch",
+            "price": 9449,
+            "image": "smart.jpg",
+            "type": "Electronics",
+            "description": "This is a smart watch"
+        },
+        {
+            "id": 1008,
+            "name": "Story Books",
+            "price": 2500,
+            "image": "books.jpg",
+            "type": "Stationary",
+            "description": "This is a story books"
+        },
+        {
+            "id": 1010,
+            "name": "Sketch Pens",
+            "price": 500,
+            "image": "sketch.jpg",
+            "type": "Stationary",
+            "description": "This is a sketch pens"
+        },
+        {
+            "id": 1011,
+            "name": "Drawing Books Set",
+            "price": 5499,
+            "image": "drawing.jpg",
+            "type": "Stationary",
+            "description": "This is a drawing books set"
+        },
+        {
+            "id": 1012,
+            "name": "Pen Stand",
+            "price": 3500,
+            "image": "pen.jpg",
+            "type": "Stationary",
+            "description": "This is a smart pen stand"
+        }
+    ]
+}
