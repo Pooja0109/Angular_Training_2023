@@ -1,0 +1,40 @@
+<div id="form"><h1 style="margin-bottom: 50px;font-weight:bold;">File A Complaint Here</h1>
+    <div style="overflow: hidden;">
+        <div class="formbox1">
+            <h5>First Name</h5>
+            <input type="text" [(ngModel)]="fname">*
+        </div>
+        <div class="formbox1">
+            <h5>Email</h5>
+            <input type="email" [(ngModel)]="email">*
+        </div>
+        <div class="formbox1">
+            <h5>Message</h5>
+            <textarea [(ngModel)]="message"></textarea>*
+        </div>
+    </div>
+    <div>
+        <h5 style="font-size: medium;">Products</h5>
+        <!-- <input type="text">* -->
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label class="autofill">Items</mat-label>
+            <input type="text"
+                   placeholder="Pick one"
+                   aria-label="Number"
+                   matInput  
+                   [matAutocomplete]="auto" [(ngModel)]="items">
+            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+              <mat-option *ngFor="let option of options" [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+    </div>
+    <div class="alert alert-info" *ngIf="errors.length>0">
+        <ul >
+            <li *ngFor="let x of errors">{{x}}</li>
+        </ul>
+    </div>
+    <div style="margin:30px;"><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
+    </div>
+

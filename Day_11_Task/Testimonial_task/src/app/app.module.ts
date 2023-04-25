@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,6 +15,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactBoxComponent } from './pages/contact/contact-box/contact-box.component';
 import { ServiceBoxComponent } from './pages/home/service-box/service-box.component';
 import { TestimonialBoxComponent } from './pages/testimonial/testimonial-box/testimonial-box.component';
+import { QuoteITPipe } from './pipes/quote-it.pipe';
+import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
+import { DetailsComponent } from './pages/home/details/details.component';
+import { FeedbackFormComponent } from './pages/testimonial/feedback-form/feedback-form.component';
 
 @NgModule({
   declarations: [
@@ -25,14 +30,20 @@ import { TestimonialBoxComponent } from './pages/testimonial/testimonial-box/tes
     ContactComponent,
     ContactBoxComponent,
     ServiceBoxComponent,
-    TestimonialBoxComponent
+    TestimonialBoxComponent,
+    QuoteITPipe,
+    EnquiryFormComponent,
+    DetailsComponent,
+    FeedbackFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

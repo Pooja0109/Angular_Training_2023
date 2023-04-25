@@ -1,11 +1,11 @@
 <div class="test-box">
     <div class="name-holder">
-        {{feeds.name}} said...
+        {{feeds.name | uppercase}} said...
     </div>
     <div class="msg-holder">
-        {{feeds.message}}
+        {{feeds.message | quoteIT}}
     </div>
     <div class="type-holder">
-        Type: {{feeds.type}}
+        {{feeds.type}}
     </div>
 </div>

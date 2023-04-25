@@ -1,0 +1,23 @@
+.example-card {
+    max-width:100%;
+    margin-top:5%;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+.headings
+{
+    justify-content:center ! important;
+}
+img{
+  height:250px;
+}
+.outer
+{
+  float:left;
+  width:280px;
+  height:280px;
+  box-sizing: border-box;
+  margin:5%;
+}
