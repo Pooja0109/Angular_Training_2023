@@ -1,0 +1,22 @@
+.rform{
+    /* border: 3px solid gold; */
+    padding:10px;
+    margin-top:10%;
+    background-color: black;
+    color: white;
+}
+td
+{
+    padding:10px 30px;
+}
+th{
+    font-weight:500;
+}
+input
+{
+    width:100%;
+}
+table
+{
+    margin: auto;
+}

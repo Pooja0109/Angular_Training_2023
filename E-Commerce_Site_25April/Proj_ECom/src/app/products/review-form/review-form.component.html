@@ -1,0 +1,30 @@
+<div class="rform">
+    <form [formGroup]="reviewForm" (submit)="saveFeedback()">
+        <table>
+            <tr>
+                <th>Name</th>
+                <td><input type="text" formControlName="name"></td>
+                <td>
+                    <div *ngIf='reviewForm.controls.name.hasError("minlength")'>
+                        Atleast Three Characters long</div>
+                </td>
+            </tr>
+            <tr>
+                <th>Your Review </th>
+                <td><textarea rows=6 cols=50 formControlName="review">
+                        </textarea></td>
+                <td>
+                    <div *ngIf='reviewForm.controls.message.hasError("minlength")'>
+                        Atleast 10 characters long</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <button type="submit" class="btn btn-primary" [disabled]="!reviewForm.valid">
+                        Post Review</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

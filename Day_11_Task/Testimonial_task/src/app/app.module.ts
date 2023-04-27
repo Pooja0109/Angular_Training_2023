@@ -11,7 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { TestimonialComponent } from './pages/testimonial/testimonial.component';
 import { ContactComponent } from './pages/contact/contact.component'
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule,HttpClient } from '@angular/common/http';
 import { ContactBoxComponent } from './pages/contact/contact-box/contact-box.component';
 import { ServiceBoxComponent } from './pages/home/service-box/service-box.component';
 import { TestimonialBoxComponent } from './pages/testimonial/testimonial-box/testimonial-box.component';
@@ -19,6 +19,12 @@ import { QuoteITPipe } from './pipes/quote-it.pipe';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
 import { DetailsComponent } from './pages/home/details/details.component';
 import { FeedbackFormComponent } from './pages/testimonial/feedback-form/feedback-form.component';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http,'./assets/i18n/','.json');
+}
 
 @NgModule({
   declarations: [
@@ -43,7 +49,14 @@ import { FeedbackFormComponent } from './pages/testimonial/feedback-form/feedbac
     MaterialModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TranslateModule.forRoot({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+  })
   ],
   providers: [],
   bootstrap: [AppComponent]

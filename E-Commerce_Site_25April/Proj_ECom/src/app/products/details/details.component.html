@@ -1,0 +1,29 @@
+<!-- <div class="details">
+    <h1>{{details.name}}</h1>
+
+    <div class="pros">
+        <div class="image">
+            <img src="http://localhost/{{details.image}}" />
+        </div>
+    <p class="price">{{details.price|currency:'Rs. '}}</p>
+    </div>
+    <p>{{details.description}}</p>
+    <app-review-form></app-review-form>
+</div> -->
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{details.name}}</mat-card-title>
+        <mat-card-subtitle class="price">{{details.price|currency:'Rs. '}}</mat-card-subtitle>
+        <img mat-card-xl-image src="http://localhost/{{details.image}}" >
+      </mat-card-title-group>
+    </mat-card-header>
+    <h3>Description</h3>
+    <mat-card-content>
+        {{details.description}}
+    </mat-card-content>
+  </mat-card>
+  <app-collect-review [idPass]="id"></app-collect-review>
+  <app-review-form></app-review-form>
+  

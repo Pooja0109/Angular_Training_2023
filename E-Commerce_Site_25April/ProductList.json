@@ -1,0 +1,168 @@
+{
+  "productList": [
+    {
+      "id": 1001,
+      "name": "earphone",
+      "price": 1500,
+      "image": "earphone.jpg",
+      "type": "Electronics",
+      "description": "This is a earphone.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1002,
+      "name": "Lenova Laptop",
+      "price": 49020,
+      "image": "laptop.jpg",
+      "type": "Electronics",
+      "description": "This is a Laptop.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1003,
+      "name": "Maggi Noodles",
+      "price": 150,
+      "image": "maggi.jpg",
+      "type": "Grocery",
+      "description": "This is instant noodles.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1004,
+      "name": "Spicy Chakli",
+      "price": 200,
+      "image": "chakli.jpg",
+      "type": "Grocery",
+      "description": "This is rice chakli.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1005,
+      "name": "Tea Powder",
+      "price": 650,
+      "image": "tea.jpg",
+      "type": "Grocery",
+      "description": "This is tea powder.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1006,
+      "name": "Boost Drink mix",
+      "price": 200,
+      "image": "boost.jpg",
+      "type": "Grocery",
+      "description": "This is drink mix.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1007,
+      "name": "Samsung Galaxy",
+      "price": 29500,
+      "image": "mobile.jpg",
+      "type": "Electronics",
+      "description": "This is a phone.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1008,
+      "name": "Smart Watch",
+      "price": 9449,
+      "image": "smart.jpg",
+      "type": "Electronics",
+      "description": "This is a smart watch.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1009,
+      "name": "Story Books",
+      "price": 2500,
+      "image": "books.jpg",
+      "type": "Stationary",
+      "description": "This is a story books.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1010,
+      "name": "Sketch Pens",
+      "price": 500,
+      "image": "sketch.jpg",
+      "type": "Stationary",
+      "description": "This is a sketch pens.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1011,
+      "name": "Drawing Books Set",
+      "price": 5499,
+      "image": "drawing.jpg",
+      "type": "Stationary",
+      "description": "This is a drawing books set.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    },
+    {
+      "id": 1012,
+      "name": "Pen Stand",
+      "price": 3500,
+      "image": "pen.jpg",
+      "type": "Stationary",
+      "description": "This is a smart pen stand.E-Commerce is an efficient retail method for business transactions. Start-up costs for establishing an E-Commerce business is far less than expanding your business with more brick and mortar locations. Fewer licenses and permits are required to start an online business than that of a physical store location. You will also save money by using fewer employees to perform operations such as managing inventory and billing customers. You won’t have to search for an appropriate geographic location or worry about paying high utility costs for the facility."
+    }
+  ],
+  "complaints": [
+    {
+      "id": 84554,
+      "fname": "Pooja P",
+      "email": "pooja@gmail.com",
+      "message": "i want a replacement for this broken earphones .Please respond ASAP...",
+      "items": "Earphones"
+    },
+    {
+      "id": 53698,
+      "fname": "Nidhi",
+      "email": "nidhirshetty@gmail.com",
+      "message": "nedhwhcv c wbcvhwebchkjwec wjhcvuwvcjebc jhcvjhewckbecf cehfvcjkwef",
+      "items": "Maggi"
+    },
+    {
+      "id": 81028,
+      "fname": "Sonu",
+      "email": "sonu@dedalus.com",
+      "message": "hgvhgvxhgwc hbcjhwqcjhqewc qhwecvqwc hqwjedvhwvc djvqwj",
+      "items": "Earphones"
+    },
+    {
+      "id": 68604,
+      "fname": "minnu",
+      "email": "minnu@dedalus.com",
+      "message": "jcjwefghcvghvewcgjqw weuvigyvwchgv gvycgvuewvcjqw xyqgwvcghevhcvec wqjvxuwvegkhwed",
+      "items": "Maggi"
+    }
+  ],
+  "reviews": [
+    {
+      "id01": "1003",
+      "name": "Pooja",
+      "review": "maggi is so so nice ukkkk",
+      "id": 1
+    },
+    {
+      "id01": "1002",
+      "name": "Nidhi",
+      "review": "My laptop is this laptop is best laptop",
+      "id": 2
+    },
+    {
+      "id01": "1002",
+      "name": "Pooja",
+      "review": "tooo costly bro",
+      "id": 3
+    },
+    {
+      "id01": "1005",
+      "name": "Sreeja",
+      "review": "Perfect tea powder in the whole wide world...! ",
+      "id": 4
+    },
+    {
+      "id01": "1002",
+      "name": "Chandana",
+      "review": "Worth every penny.....love this laptop....go for it guys.....!!!!",
+      "id": 5
+    },
+    {
+      "id01": "1005",
+      "name": "Lakshmi",
+      "review": "All time favourite tea powder......!!!!",
+      "id": 6
+    }
+  ]
+}

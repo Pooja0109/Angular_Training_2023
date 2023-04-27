@@ -1,0 +1,36 @@
+.productsList
+{
+    margin-left:2%;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+}
+
+.cat
+{
+    float:left;
+}
+mat-slider
+{
+    margin-left:81%;
+    width:15%;
+    /* border: 2px solid red; */
+    margin-top: -100px;
+    /* margin-top:1%; */
+}
+.lab
+{
+    float: right;
+    margin-right:150px;
+    font-weight: 500;
+}
+.ranger
+{
+    /* border: 2px solid rgb(68, 3, 117);  */
+    margin-top:5px;
+}
+
+

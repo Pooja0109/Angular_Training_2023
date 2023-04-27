@@ -1,0 +1,15 @@
+<div class="ReviewBox">
+    <p class="title">Reviews</p>
+<div class="name-holder" *ngFor="let x of Reviewlist">
+        <div class="check name-holder" *ngIf="idPass==x.id01">
+        {{x.name | uppercase}} said...
+         <p class="msg-holder">{{x.review}}</p>
+        </div>
+    </div>
+    <!-- <div class="msg-holder" class="name-holder" *ngFor="let x of Reviewlist">
+       
+    </div> -->
+    <!-- <div class="type-holder">
+        {{feeds.type}}
+    </div> -->
+</div>
