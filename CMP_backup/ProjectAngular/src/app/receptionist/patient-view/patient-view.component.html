@@ -1,0 +1,9 @@
+<app-title-bar></app-title-bar>
+<div class="serachTab">
+<mat-form-field appearance="fill" class="search">
+    <input matInput [(ngModel)]="searchKey" placeholder="Search" >
+</mat-form-field>
+</div>
+<div class="PatView">
+<app-patient-cards *ngFor="let x of patientLst | searchPipe:searchKey" [patient]="x"></app-patient-cards>
+</div>

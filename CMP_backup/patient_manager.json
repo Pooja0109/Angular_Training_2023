@@ -1,0 +1,53 @@
+{
+  "patients": [
+    {
+      "firstname": "Pooja",
+      "lastname": "P",
+      "email": "pooja@gmail.com",
+      "gender": "Female",
+      "age": 22,
+      "city": "Udupi",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "9972992411",
+      "emg_contact": "9164133441",
+      "height": 153,
+      "weight": 65,
+      "blood_group": "O+",
+      "appoint": "2023-05-16T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "firstname": "Bruno",
+      "email": "bruno@gmail.com",
+      "age": 9,
+      "gender": "Male",
+      "city": "Udupi",
+      "state": "Karnataka",
+      "pincode": 576103,
+      "contact": "1212121212",
+      "emg_contact": "5656565656",
+      "height": 70,
+      "weight": 35,
+      "blood_group": "B+",
+      "appoint": "2023-05-08T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "firstname": "Nidhi",
+      "email": "nidhi@gmail.com",
+      "age": 22,
+      "gender": "Female",
+      "city": "karkala",
+      "state": "karnataka",
+      "pincode": 576101,
+      "contact": "9998888222",
+      "emg_contact": "1871167125",
+      "height": 163,
+      "weight": 46,
+      "blood_group": "B+",
+      "appoint": "2023-05-04T18:30:00.000Z",
+      "id": 5
+    }
+  ]
+}

@@ -22,7 +22,6 @@ export class DetailsComponent {
       }
     )
  }
-
  readData(){
     this.Ds.getDetails(this.id).subscribe({
         next: (data:any)=> this.details =data,
